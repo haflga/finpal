@@ -1,5 +1,5 @@
 # My Financial Pal
-This project is for our finance management app, My Financial Pal, which acts as our group project for Mobile Programming (IT 3048). Our group consists of [Gage Hafl](#https://github.com/haflga), [David Akobia](https://github.com/lucky7Z), [Otti Bensghir](https://github.com/Ottibensghir)
+This project is for our finance management app, My Financial Pal, which acts as our group project for Mobile Programming (IT 3048). Our group consists of [Gage Hafl](https://github.com/haflga), [David Akobia](https://github.com/lucky7Z), [Otti Bensghir](https://github.com/Ottibensghir)
 
 ## Design Document
 To view our design document, you can click on the document in the list of files above, or [click here](./DESIGN.pdf) once the document is added to this repository.
