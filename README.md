@@ -9,3 +9,7 @@ Do you remember a time when you tried to keep track of your finances? Do you rem
 -	view a weekly summary for all finances for the week
 
 Using your android phone, you will have the opportunity to manage your money and use a financial tracker to help you define and reach your goals. View exactly where your money is going to better your planning to pay off loan or save up for the future.
+
+---
+
+![Project Diagram](https://github.com/haflga/finpal/blob/master/diagram.png)
