@@ -8,6 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import edu.uc.haflga.financialpal.R
 
+/**
+ * This fragment runs and creates the add_transaction_fragment view,
+ *  it will send and receive data through the AddTransactionVieWModel
+ */
 class AddTransactionFragment : Fragment() {
 
     companion object {

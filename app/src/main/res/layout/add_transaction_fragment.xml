@@ -27,13 +27,13 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/AmountTxt" />
+            android:text="@string/text_amount" />
 
         <TextView
             android:id="@+id/lblCategory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Category" />
+            android:text="@string/text_category" />
 
         <EditText
             android:id="@+id/txtCategory"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/CategoryTxt" />
+            android:text="@string/text_category" />
 
     </LinearLayout>
 
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="25dp"
-        android:text="@string/SubmitBtn"
+        android:text="@string/btn_submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
