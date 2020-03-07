@@ -8,6 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import edu.uc.haflga.financialpal.R
 
+/**
+ * This fragment runs and creates the income_fragment view,
+ * it will send and receive data through the IncomeViewModel
+ */
 class IncomeFragment : Fragment() {
 
     companion object {
