@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">FinancialPal</string>
+    <string name="AmountTxt">$</string>
+    <string name="CategoryTxt" />
+    <string name="SubmitBtn">Submit</string>
 </resources>
