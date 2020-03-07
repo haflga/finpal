@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">FinancialPal</string>
+    <string name="AddIncomeBtn">Add Income</string>
+    <string name="amountLbl">Amount</string>
+    <string name="categoryLbl">Category</string>
     <string name="AmountTxt">$</string>
     <string name="CategoryTxt" />
     <string name="SubmitBtn">Submit</string>
