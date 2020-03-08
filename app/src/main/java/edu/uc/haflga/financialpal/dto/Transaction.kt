@@ -1,4 +1,3 @@
 package edu.uc.haflga.financialpal.dto
 
-class Transaction {
-}
+class Transaction
