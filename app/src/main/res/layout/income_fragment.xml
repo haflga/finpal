@@ -7,10 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".ui.income.IncomeFragment">
 
+    <!--    THIS LAYOUT IS TEMPORARY JUST TO GET THE FUNCTIONALITY WORKING-->
 
-<!--    THIS LAYOUT IS TEMPORARY JUST TO GET THE FUNCTIONALITY WORKING-->
-
-<!--    Layout for labels and textboxes  -->
+    <!--    Layout for labels and textboxes  -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,16 +17,14 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="170dp">
 
-
-<!--        Label for the money amount  -->
+        <!--        Label for the money amount  -->
         <TextView
             android:id="@+id/lblAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/amountLbl" />
 
-<!--        Textbox for the income money amount-->
-
+        <!--        Textbox for the income money amount-->
 
         <!--        Label for the income type/category   -->
         <TextView
@@ -52,8 +49,7 @@
 
     </LinearLayout>
 
-
-<!--    Button to Add Income-->
+    <!--    Button to Add Income-->
     <Button
         android:id="@+id/btnAddIncome"
         android:layout_width="wrap_content"
@@ -66,6 +62,4 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-<!-- Use FrameLayout to display transactions-->
+    <!-- Use FrameLayout to display transactions-->
