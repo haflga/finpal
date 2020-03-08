@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import edu.uc.haflga.financialpal.ui.addtransaction.AddTransactionFragment
 
-class add_transaction : AppCompatActivity() {
+class AddTransaction : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -6,7 +6,7 @@ class Category(var name: String, var limit: Limit?) {
 
     var id: Int = 0
     //Creating an ArrayList for transaction Categories
-    var allCategories = ArrayList<Category>()
+    private var allCategories = ArrayList<Category>()
 
     //Adding a new category to the ArrayList
     fun addCategory(category: Category) {

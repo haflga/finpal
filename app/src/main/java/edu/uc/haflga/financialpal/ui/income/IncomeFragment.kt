@@ -10,10 +10,6 @@ import edu.uc.haflga.financialpal.R
 
 class IncomeFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = IncomeFragment()
-    }
-
     private lateinit var viewModel: IncomeViewModel
 
     override fun onCreateView(
@@ -27,6 +23,10 @@ class IncomeFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(IncomeViewModel::class.java)
         // TODO: Use the ViewModel
+    }
+
+    companion object {
+        fun newInstance() = IncomeFragment()
     }
 
 }
