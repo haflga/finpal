@@ -1,3 +1,14 @@
 package edu.uc.haflga.financialpal.dto
 
-class Transaction
+import java.util.*
+
+enum class TransactionType {
+    INCOME,
+    EXPENSE
+}
+
+class Transaction(var type: TransactionType, var amount: Float, var date: Date?, var category: Category?) {
+    init {
+
+    }
+}
