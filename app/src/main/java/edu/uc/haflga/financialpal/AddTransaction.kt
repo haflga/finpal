@@ -2,9 +2,9 @@ package edu.uc.haflga.financialpal
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import edu.uc.haflga.financialpal.ui.income.IncomeFragment
+import edu.uc.haflga.financialpal.ui.addtransaction.AddTransactionFragment
 
-class income : AppCompatActivity() {
+class AddTransaction : AppCompatActivity() {
 
     override fun onCreate(
         savedInstanceState: Bundle?
@@ -13,11 +13,11 @@ class income : AppCompatActivity() {
             savedInstanceState
         )
         setContentView(
-            R.layout.income_activity
+            R.layout.add_transaction_activity
         )
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction().replace(
-                    R.id.container, IncomeFragment.newInstance()
+                    R.id.container, AddTransactionFragment.newInstance()
                 ).commitNow()
         }
     }
