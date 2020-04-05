@@ -9,7 +9,7 @@ class Category(
     var id: Int = 0
 
     //Creating an ArrayList for transaction Categories
-    var allCategories = ArrayList<Category>()
+    var allCategories = mutableListOf<Category>()
 
     //Adding a new category to the ArrayList
     fun addCategory(
