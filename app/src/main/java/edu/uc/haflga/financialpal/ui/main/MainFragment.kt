@@ -24,6 +24,7 @@ class MainFragment : Fragment() {
         )
     }
 
+
     override fun onActivityCreated(
         savedInstanceState: Bundle?
     ) {
