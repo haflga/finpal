@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import edu.uc.haflga.financialpal.ui.income.IncomeFragment
 
-class income : AppCompatActivity() {
+class Income : AppCompatActivity() {
 
     override fun onCreate(
         savedInstanceState: Bundle?
