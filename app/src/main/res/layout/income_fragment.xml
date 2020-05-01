@@ -10,12 +10,14 @@
     <!--    THIS LAYOUT IS TEMPORARY JUST TO GET THE FUNCTIONALITY WORKING-->
 
     <!--    Layout for labels and textboxes  -->
+
+    <!--    Button to Add Income-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="170dp">
+        tools:layout_editor_absoluteX="-190dp"
+        tools:layout_editor_absoluteY="-248dp">
 
         <!--        Label for the money amount  -->
         <TextView
@@ -49,7 +51,6 @@
 
     </LinearLayout>
 
-    <!--    Button to Add Income-->
     <Button
         android:id="@+id/btnAddIncome"
         android:layout_width="wrap_content"
